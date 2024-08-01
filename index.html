@@ -61,6 +61,46 @@
           </svg>
         </button>
       </div>
+                  <!--Mobile menu-->
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" type="button">
+            <svg class="icon-mobil-close" width="8" height="8">
+              <use href="./images/symbol-defs.svg#icon-close-button"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts-user">
+            <address class="user-contacts">
+              <ul class="user-contacts-list">
+                <li class="user-contacts-item">
+                  <a class="user-contacts-link-tel" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="user-contacts-item">
+                  <a
+                    class="user-contacts-link-email"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
     </header>
     <!--Main-->
     <!--Section 1-Button-->
@@ -567,7 +607,7 @@
           </ul>
         </div>
         <!--Footer-button-->
-        <div class="footer-subscribe-div">
+        <div class="footer-subscribe-div hidden">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-subscribe-form">
             <label class="footer-subscribe-label">
@@ -594,8 +634,8 @@
     </footer>
 
     <!--Wingow modal-->
-    <div class="backdrop is-open">
-      <div class="container modal">
+    <div class="backdrop is-open hidden">
+      <div class="container modal hidden">
         <button class="button-close" type="button" data-modal-close="">
           <svg
             class="button-icon"
