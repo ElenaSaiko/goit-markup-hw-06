@@ -376,6 +376,18 @@ a {
   }
 }
 
+.text-hero {
+  max-width: 216px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 72px;
+}
+
 .button-hero {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -411,6 +423,7 @@ a {
       ),
       url("../images/people-office-tab1.jpg");
   }
+
   @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -422,20 +435,12 @@ a {
         url("../images/people-office-tab2x.jpg");
     }
   }
-}
-
-.sec-heder,
-.big-title {
-  font-family: "Roboto", sans-serif;
-  max-width: 216px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-  margin: auto;
-  margin-bottom: 72px;
+  .text-hero {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    max-width: 496px;
+  }
 }
 
 .text-hero {
@@ -476,12 +481,12 @@ a {
 /*Section 2*/
 
 .section-main {
-  margin: auto;
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-left: 16px;
-  padding-right: 16px;
-  max-width: 288px;
+}
+
+.icon-section-container {
+  display: none;
 }
 
 .visually-hidden {
@@ -497,14 +502,11 @@ a {
   overflow: hidden;
 }
 
-.icon-section-container {
-  display: none;
-}
-
 .list-twosection {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  align-items: center;
 }
 
 .list-page {
@@ -557,9 +559,15 @@ a {
 
 @media screen and (min-width: 1158px) {
   .section-main {
+    width: 1128px;
+    margin: auto;
+  }
+
+  .sectiontwo-container {
     padding: 120px 0;
   }
-  .sectiontwo-container {
+
+  .icon-section-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -575,11 +583,11 @@ a {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    align-items: center;
     display: flex;
   }
   .list-page {
     width: calc((100% - 3 * 24px) / 4);
+    padding: 0;
   }
   .textsection-pros {
     font-weight: 500;
