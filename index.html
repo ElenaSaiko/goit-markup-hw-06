@@ -56,17 +56,17 @@
         </address>
         <button class="burger-bth" type="button">
           <svg class="burger-icon" width="24" height="24">
-            <use href="#"></use>
+            <use href="./images/sym.icon.svg#icon-burger-button"></use>
             <!--іконка з першого моб застос-->
           </svg>
         </button>
       </div>
-                  <!--Mobile menu-->
-      <div class="mobile-menu is-open">
+      <!--Mobile menu-->
+      <div class="mobile-menu is-open hidden">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close" type="button">
             <svg class="icon-mobil-close" width="8" height="8">
-              <use href="./images/symbol-defs.svg#icon-close-button"></use>
+              <use href="./images/sym.icon.svg#icon-close-button"></use>
             </svg>
           </button>
           <nav class="mobile-menu-nav">
@@ -101,11 +101,63 @@
                 </li>
               </ul>
             </address>
+            <!--Mobile menu іконки-->
+            <div class="mobile-soc-icon-container hidden">
+              <ul class="mobile-soc-icon">
+                <li class="mobile-soc-icon-list">
+                  <a
+                    href="https://instagram.com"
+                    class="mobile-social-link"
+                    target="_blank"
+                  >
+                    <svg class="mobile-icon-media" width="16" height="16">
+                      <use href="./images/sym.icon.svg#icon-instagram-2"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-soc-icon-list">
+                  <a
+                    href="https://twitter.com"
+                    class="mobile-social-link"
+                    target="_blank"
+                  >
+                    <svg class="mobile-icon-media" width="16" height="16">
+                      <use href="./images/sym.icon.svg#icon-twitter-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-soc-icon-list">
+                  <a
+                    href="https://facebook.com"
+                    class="mobile-social-link"
+                    target="_blank"
+                  >
+                    <svg class="mobile-icon-media" width="16" height="16">
+                      <use href="./images/sym.icon.svg#icon-facebook-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-soc-icon-list">
+                  <a
+                    href="https://linkedin.com"
+                    class="mobile-social-link"
+                    target="_blank"
+                  >
+                    <svg class="mobile-icon-media" width="16" height="16">
+                      <use href="./images/sym.icon.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!--Main-->
     <!--Section 1-Button-->
     <main>
-      <section class="page-hero hidden">
+      <section class="page-hero">
         <div class="container">
           <h1 class="text-hero sec-heder big-title">
             Effective Solutions for Your Business
@@ -114,14 +166,14 @@
         </div>
       </section>
       <!--Section 2-->
-      <section class="section-main hidden">
+      <section class="section-main">
         <div class="container sectiontwo-container">
           <h2 class="visually-hidden">Pros of the company</h2>
           <ul class="list-twosection">
             <li class="list-page">
               <div class="icon-section-container">
                 <svg class="expertise-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna-1"></use>
+                  <use href="./images/sym.icon.svg#icon-antenna-1"></use>
                 </svg>
               </div>
               <h3 class="textsection-pros">Strategy</h3>
@@ -133,7 +185,7 @@
             <li class="list-page">
               <div class="icon-section-container">
                 <svg class="expertise-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock-1"></use>
+                  <use href="./images/sym.icon.svg#icon-clock-1"></use>
                 </svg>
               </div>
               <h3 class="textsection-pros">Punctuality</h3>
@@ -145,7 +197,7 @@
             <li class="list-page">
               <div class="icon-section-container">
                 <svg class="expertise-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram-1"></use>
+                  <use href="./images/sym.icon.svg#icon-diagram-1"></use>
                 </svg>
               </div>
               <h3 class="textsection-pros">Diligence</h3>
@@ -157,7 +209,7 @@
             <li class="list-page">
               <div class="icon-section-container">
                 <svg class="expertise-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut-1"></use>
+                  <use href="./images/sym.icon.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
               <h3 class="textsection-pros">Technologies</h3>
@@ -170,8 +222,8 @@
         </div>
       </section>
       <!--Section 3-Our Team -->
-      <section class="team hidden">
-        <div class="container">
+      <section class="team">
+        <div class="containerteam">
           <h2 class="title-team">Our Team</h2>
           <ul class="teamlist">
             <li class="team-li">
@@ -193,7 +245,9 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                        <use
+                          href="./images/sym.icon.svg#icon-instagram-2"
+                        ></use>
                       </svg>
                     </a>
                   </li>
@@ -204,7 +258,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                        <use href="./images/sym.icon.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -215,7 +269,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                        <use href="./images/sym.icon.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -226,7 +280,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        <use href="./images/sym.icon.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -252,7 +306,9 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                        <use
+                          href="./images/sym.icon.svg#icon-instagram-2"
+                        ></use>
                       </svg>
                     </a>
                   </li>
@@ -264,7 +320,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                        <use href="./images/sym.icon.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -275,7 +331,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                        <use href="./images/sym.icon.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -286,7 +342,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        <use href="./images/sym.icon.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -312,7 +368,9 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                        <use
+                          href="./images/sym.icon.svg#icon-instagram-2"
+                        ></use>
                       </svg>
                     </a>
                   </li>
@@ -324,7 +382,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                        <use href="./images/sym.icon.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -335,7 +393,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                        <use href="./images/sym.icon.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -346,7 +404,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        <use href="./images/sym.icon.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -372,7 +430,9 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                        <use
+                          href="./images/sym.icon.svg#icon-instagram-2"
+                        ></use>
                       </svg>
                     </a>
                   </li>
@@ -384,7 +444,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                        <use href="./images/sym.icon.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -395,7 +455,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                        <use href="./images/sym.icon.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -406,7 +466,7 @@
                       style="width: 40px; height: 40px"
                     >
                       <svg class="icon-media" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        <use href="./images/sym.icon.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
                   </li>
@@ -417,8 +477,8 @@
         </div>
       </section>
       <!--Our Portfolio-->
-      <section class="ourportfolio hidden">
-        <div class="container">
+      <section class="ourportfolio">
+        <div class="container-portfolio">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="list-ourportfolio">
             <li class="images-ourportfolio">
@@ -546,7 +606,7 @@
       </section>
     </main>
     <!--Footer -->
-    <footer class="page-footer hidden">
+    <footer class="page-footer">
       <div class="container footer-container">
         <div class="footer-logo-text">
           <a href="./index.html" class="footer-logo"
@@ -567,7 +627,7 @@
                 target="_blank"
               >
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                  <use href="./images/sym.icon.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
@@ -578,7 +638,7 @@
                 target="_blank"
               >
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                  <use href="./images/sym.icon.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
@@ -589,7 +649,7 @@
                 target="_blank"
               >
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                  <use href="./images/sym.icon.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
@@ -600,14 +660,14 @@
                 target="_blank"
               >
                 <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  <use href="./images/sym.icon.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
         <!--Footer-button-->
-        <div class="footer-subscribe-div hidden">
+        <div class="footer-subscribe-div">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-subscribe-form">
             <label class="footer-subscribe-label">
@@ -625,7 +685,7 @@
             >
               Subscribe
               <svg class="footer-subscribe-icon" width="24" height="24">
-                <use href="./images/symbol-defs.svg#icon-Subscribe"></use>
+                <use href="./images/sym.icon.svg#icon-Subscribe"></use>
               </svg>
             </button>
           </form>
@@ -635,7 +695,7 @@
 
     <!--Wingow modal-->
     <div class="backdrop is-open hidden">
-      <div class="container modal hidden">
+      <div class="container-modal">
         <button class="button-close" type="button" data-modal-close="">
           <svg
             class="button-icon"
@@ -643,7 +703,7 @@
             width="8"
             height="8"
           >
-            <use href="./images/symbol-defs.svg#icon-close-button"></use>
+            <use href="./images/sym.icon.svg#icon-close-button"></use>
           </svg>
         </button>
         <p class="window-paragraph">
@@ -666,7 +726,7 @@
                 width="18"
                 height="24"
               >
-                <use href="./images/symbol-defs.svg#icon-User"></use>
+                <use href="./images/sym.icon.svg#icon-User"></use>
               </svg>
             </div>
           </div>
@@ -681,7 +741,7 @@
                 width="18"
                 height="24"
               >
-                <use href="./images/symbol-defs.svg#icon-Phone"></use>
+                <use href="./images/sym.icon.svg#icon-Phone"></use>
               </svg>
             </div>
           </div>
@@ -696,7 +756,7 @@
                 width="18"
                 height="24"
               >
-                <use href="./images/symbol-defs.svg#icon-Email"></use>
+                <use href="./images/sym.icon.svg#icon-Email"></use>
               </svg>
             </div>
           </div>
@@ -728,9 +788,7 @@
                   width="10"
                   height="8"
                 >
-                  <use
-                    href="./images/symbol-defs.svg#icon-button-I-accept"
-                  ></use>
+                  <use href="./images/sym.icon.svg#icon-button-I-accept"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
