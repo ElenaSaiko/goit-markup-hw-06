@@ -592,12 +592,19 @@ button {
 /*Section 3-Our Team*/
 
 .team {
+  padding-top: 96px;
   padding-bottom: 96px;
-  padding-right: 96px;
+  background-color: #f4f4fd;
 }
 
 .containerteam {
-  background-color: #f4f4fd;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.container-ourtime {
+  padding: 32px 0;
+  background: #fff;
 }
 
 .title-team {
@@ -695,6 +702,7 @@ button {
     padding-left: 108px;
     padding-right: 108px;
   }
+
   .teamlist {
     gap: 24px;
     row-gap: 64px;
@@ -710,6 +718,10 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  .team {
+    padding: 120px 0;
+  }
+
   .containerteam {
     padding: 0 15px;
   }
